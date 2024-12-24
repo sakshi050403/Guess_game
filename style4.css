@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(175, 140, 240);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    background-color: rgb(58, 2, 91);
+    color: antiquewhite;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+a:link{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+}
+#guess{
+    font-size: 23px;
+    font-weight: 200;
+}
+#subt{
+    background-color: rgb(193, 168, 215);
+    border-radius: 3px;
+    height: 30px;
+    width: 120px;
+}
